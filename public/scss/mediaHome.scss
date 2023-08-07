@@ -1,0 +1,327 @@
+// HOME PAGE
+@media (max-width: 1225px) {
+  .home__deals-row-list {
+    max-width: 85%;
+  }
+  .home {
+    &-tire-card {
+      // min-width: max-content;
+      min-width: 16rem;
+    }
+  }
+  .home__deals-row-title {
+    padding-left: 8%;
+  }
+  .home__deals-row-featured {
+    padding: 0 8%;
+  }
+  // .home__header-title-p {
+  //   padding-left: 24%;
+  // }
+}
+
+@media (max-width: 950px) {
+  // .home__header-title-h1 {
+  //   font-size: 3rem;
+  //   margin-left: -13%;
+  // }
+  .home__deals-row-list {
+    max-width: 87%;
+  }
+  .home__deals-row-title {
+    padding-left: 7%;
+  }
+  .home__deals-row-featured {
+    padding: 0 7%;
+  }
+  // .home__header-title-p {
+  //   padding-left: 21%;
+  //   font-size: 2.4rem;
+  // }
+}
+
+@media (max-width: 850px) {
+  // .home__header-title-h1 {
+  //   font-size: 2.9rem;
+  //   margin-left: -12%;
+  // }
+  // .home__header-title-p {
+  //   padding-left: 12%;
+  //   font-size: 2.2rem;
+  // }
+  .home__deals-row-title {
+    padding-left: 5%;
+  }
+  .home__deals-row-featured {
+    padding: 0 5%;
+  }
+  .posPrice-btn {
+    padding: 1.1rem 1.5rem;
+  }
+  .home__deals-row-pricesByType {
+    grid-column-gap: 0.8rem;
+  }
+  .home__header-title-p {
+    padding-left: 3%;
+  }
+  .home__header-title-h1 {
+    margin-left: 7%;
+  }
+}
+
+@media (max-width: 767px) {
+  .home__header {
+    height: 57rem;
+  }
+  .home__navigation-logo-img {
+    margin-bottom: -1rem;
+  }
+  .home__header-title {
+    padding: 0 1.5rem;
+  }
+  .home__header-title-h1 {
+    font-size: 6.1rem;
+    margin-left: 5%;
+  }
+  // .home__header-title-p {
+  // }
+  .home__header-title-p {
+    display: none;
+  }
+  .home__header-title-h1-span2 {
+    padding-left: 5%;
+  }
+  .home__header-title-h1-span1 {
+    padding-left: 5%;
+  }
+  .home__header-title-h1-span3 {
+    padding-left: 5%;
+  }
+  .home__header-title-p-mobile {
+    color: #19bfb7;
+    font-weight: 500;
+    font-size: 2.6rem;
+    padding-top: 0.5rem;
+    padding-left: 10%;
+    // display: none;
+  }
+  .home-brTag1 {
+    display: unset;
+  }
+  .home__deals-row-pricesByType {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1rem;
+    padding: 1.2rem 8rem;
+    justify-self: unset;
+  }
+  .home-tire-card {
+    min-width: 15rem;
+  }
+  .home__deals-row-list::-webkit-scrollbar {
+    height: 1.1rem;
+  }
+}
+
+// BIGGER THEN 768px  MIN MIN MIN
+@media (min-width: 768px) {
+  .home__header-title-p-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 657px) {
+  .home__deals-row-featured {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .home__header-form-title-titleText1 {
+    display: none;
+  }
+
+  .home__header-form-title-titleText2 {
+    display: unset;
+  }
+
+  .home__header-title-h1 {
+    font-size: 5.3rem;
+    margin-left: 1%;
+    &-span1 {
+      padding-left: 1%;
+    }
+    &-span2 {
+      padding-left: 1%;
+    }
+    &-span3 {
+      padding-left: 1%;
+    }
+    &-p-mobile {
+      padding-left: 3%;
+    }
+  }
+}
+
+@media (max-width: 545px) {
+  .home__navigation-logo {
+    padding-left: 0;
+  }
+  .home__header-title-h1 {
+    font-size: 4.5rem;
+    margin-left: 0;
+  }
+  .autocomplete__input {
+    font-size: 1.6rem;
+  }
+  .home__deals-row-featured {
+    padding: 0 0.8rem;
+    grid-template-columns: 3fr 2fr;
+    &-title {
+      font-size: 1.7rem;
+    }
+    &-service-p {
+      font-size: 1.2rem;
+    }
+  }
+  .home__deals-row-pricesByType {
+    padding: 1.2rem 1rem;
+  }
+  .home-tire-card {
+    min-width: 14.4rem;
+  }
+}
+
+@media (max-width: 438px) {
+  .home__what-we-do-spec {
+    padding: 1rem 1rem;
+  }
+  .home__deals-row-title-br {
+    display: unset;
+  }
+  .home__header-form {
+    width: 95%;
+    padding: 1.9rem 0.9rem;
+    padding-top: 0.4rem;
+  }
+  .home__header-form-title {
+    font-size: 2.1rem;
+  }
+  .autocomplete__input {
+    font-size: 1.6rem;
+  }
+  .home__deals-row-featured-service-p {
+    font-size: 1.1rem;
+  }
+  .home__deals-row-title {
+    font-size: 2.5rem;
+  }
+  .home-tire-card {
+    min-width: 14.1rem;
+  }
+  .home__quickSearch-link {
+    margin: 0.2rem 0.3rem;
+    color: #556076;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 408px) {
+  .home__header-title {
+    padding: 0 0.7rem;
+  }
+  .home__header-form-title {
+    font-size: 1.8rem;
+  }
+  .home__header-title-h1 {
+    font-size: 4rem;
+  }
+  .home__header-title-p-mobile {
+    font-size: 2.4rem;
+    padding-left: 2%;
+  }
+  .home__deals-row-pricesByType {
+    padding: 1.2rem 0.5rem;
+  }
+  .posPrice-btn {
+    padding: 1.1rem 1rem;
+    font-size: 1.4rem;
+  }
+  .home-tire-card {
+    min-width: 13.8rem;
+  }
+  .home__deals-row-featured {
+    grid-template-columns: 3fr 2.5fr;
+  }
+  .home__deals-row-featured-service-p {
+    font-size: 1rem;
+  }
+  .home__what-we-do-h2 {
+    font-size: 3rem;
+    background: linear-gradient(to left, #023752, #181d1d);
+    padding: 1.5rem 1rem;
+  }
+  .home__navigation-logo-img {
+    max-height: 4.1rem;
+    margin-bottom: -1.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+  }
+}
+
+/*** iPhone and iOS Form Input Zoom Fixes ***/
+/* Fix Input Zoom on devices older than iPhone 5: */
+@media screen and (device-aspect-ratio: 2/3) {
+  select,
+  textarea,
+  input[type='text'],
+  input[type='password'],
+  input[type='datetime'],
+  input[type='datetime-local'],
+  input[type='date'],
+  input[type='month'],
+  input[type='time'],
+  input[type='week'],
+  input[type='number'],
+  input[type='email'],
+  input[type='url'] {
+    font-size: 16px;
+  }
+}
+
+/* Fix Input Zoom on iPhone 5, 5C, 5S, iPod Touch 5g */
+@media screen and (device-aspect-ratio: 40/71) {
+  select,
+  textarea,
+  input[type='text'],
+  input[type='password'],
+  input[type='datetime'],
+  input[type='datetime-local'],
+  input[type='date'],
+  input[type='month'],
+  input[type='time'],
+  input[type='week'],
+  input[type='number'],
+  input[type='email'],
+  input[type='url'] {
+    font-size: 16px;
+  }
+}
+
+/* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
+@media screen and (device-aspect-ratio: 375/667) {
+  select,
+  textarea,
+  input[type='text'],
+  input[type='password'],
+  input[type='datetime'],
+  input[type='datetime-local'],
+  input[type='date'],
+  input[type='month'],
+  input[type='time'],
+  input[type='week'],
+  input[type='number'],
+  input[type='email'],
+  input[type='tel'],
+  input[type='url'] {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,224 @@
+.tct-lightBlue {
+  background-color: #19bfb7;
+  box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+  &:hover {
+    background: #13e0d6;
+    transition: background 0.2s;
+  }
+  &-title {
+    font-weight: 500;
+    color: $crnlac;
+  }
+  &-price {
+    color: $crnlac;
+    font-weight: 500;
+    &-old {
+      color: $sivlac;
+    }
+    &-final {
+      // color: #bf196c;
+      color: #ae1df9;
+      font-weight: 500;
+      &-num {
+        font-weight: 500;
+      }
+    }
+  }
+  &-shopName {
+    color: $crnlac;
+    font-weight: 500;
+  }
+  &-tags {
+    &-tag {
+      background-color: $crnlac;
+      color: #13e0d6;
+      &-all {
+        border-color: #ae1df9;
+        box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+      }
+      &-trailer {
+        border-color: #ae1df9;
+      }
+      &-drive {
+        border-color: #ae1df9;
+      }
+      &-steer {
+        border-color: #ae1df9;
+      }
+    } // tag
+    &-dist {
+      color: $crnlac;
+      font-size: 1.4rem;
+      font-weight: 400;
+    } // dist
+  } // tags
+} // tct lightBlue
+
+.tct-pinkRed {
+  background-color: #cb1583;
+  box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+  &:hover {
+    background: #f00893;
+    transition: background 0.2s;
+  }
+  &-title {
+    font-weight: 500;
+    color: #13e0d6;
+  }
+  &-price {
+    color: $crnlac;
+    font-weight: 500;
+    &-old {
+      color: $sivlac;
+    }
+    &-final {
+      color: #13e0d6;
+      font-weight: 500;
+      &-num {
+        font-weight: 500;
+      }
+    }
+  }
+  &-shopName {
+    color: #13e0d6;
+    font-weight: 500;
+  }
+  &-tags {
+    &-tag {
+      background-color: $crnlac;
+      color: #13e0d6;
+      &-all {
+        border-color: #13e0d6;
+        box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+      }
+      &-trailer {
+        border-color: #13e0d6;
+      }
+      &-drive {
+        border-color: #13e0d6;
+      }
+      &-steer {
+        border-color: #13e0d6;
+      }
+    } // tag
+    &-dist {
+      color: #13e0d6;
+      font-size: 1.4rem;
+      font-weight: 400;
+    } // dist
+  } // tags
+} // tct pinkRed
+
+.tct-blue {
+  background-color: #2d46b8;
+  box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+  &:hover {
+    background: #2246e6;
+    transition: background 0.2s;
+  }
+  &-title {
+    font-weight: 500;
+    color: #1ed761;
+  }
+  &-price {
+    // color: $crnlac;
+    color: #cb1583;
+    font-weight: 500;
+    &-old {
+      // color: $sivlac;
+      color: $crnlac;
+    }
+    &-final {
+      color: #1ed761;
+      font-weight: 500;
+      &-num {
+        font-weight: 500;
+      }
+    }
+  }
+  &-shopName {
+    color: #1ed761;
+    font-weight: 500;
+  }
+  &-tags {
+    &-tag {
+      background-color: $crnlac;
+      color: #13e0d6;
+      &-all {
+        border-color: #13e0d6;
+        box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+      }
+      &-trailer {
+        border-color: #13e0d6;
+      }
+      &-drive {
+        border-color: #13e0d6;
+      }
+      &-steer {
+        border-color: #13e0d6;
+      }
+    }
+    &-dist {
+      color: #1ed761;
+      font-size: 1.4rem;
+      font-weight: 400;
+    } // dist
+  } // tags
+} // tct-blue
+
+.tct-green {
+  background-color: #1ed761;
+  box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+  &:hover {
+    background: #15dd5e;
+    transition: background 0.2s;
+  }
+  &-title {
+    font-weight: 500;
+    color: #2d46b8;
+  }
+  &-price {
+    // color: $crnlac;
+    color: #cb1583;
+    font-weight: 500;
+    &-old {
+      // color: $sivlac;
+      color: $crnlac;
+    }
+    &-final {
+      color: #2d46b8;
+      font-weight: 500;
+      &-num {
+        font-weight: 500;
+      }
+    }
+  }
+  &-shopName {
+    color: #2d46b8;
+    font-weight: 500;
+  }
+  &-tags {
+    &-tag {
+      background-color: $crnlac;
+      color: #13e0d6;
+      &-all {
+        border-color: #13e0d6;
+        box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+      }
+      &-trailer {
+        border-color: #13e0d6;
+      }
+      &-drive {
+        border-color: #13e0d6;
+      }
+      &-steer {
+        border-color: #13e0d6;
+      }
+    }
+    &-dist {
+      color: #2d46b8;
+      font-size: 1.4rem;
+      font-weight: 400;
+    } // dist
+  } // tags
+} // tct-green

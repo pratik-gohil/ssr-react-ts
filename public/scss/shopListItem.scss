@@ -1,0 +1,178 @@
+// SHOP LIST ITEM MAP VIEW
+.list-item {
+  &:hover {
+    background: #122e3c;
+    transition: 0.2s;
+  }
+  padding: 1rem 2rem;
+  color: $color-sidebar-header;
+  &-active {
+    color: $color-cobalt;
+  }
+  &-title {
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+  &-desc {
+    font-weight: 300;
+    font-size: 1.4rem;
+  }
+  overflow: hidden;
+  &-tires {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    padding: 1rem;
+    justify-content: start;
+    &-card {
+      // box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+      display: grid;
+      justify-items: center;
+      // padding: 0.5rem;
+      min-width: 18rem;
+      max-width: 18rem;
+      // max-height: 22rem;
+      &-service-select {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin-bottom: 1rem;
+        &-btn {
+          // width: 100%;
+          text-align: center;
+          padding: 1rem 0;
+          background: $background-sidebar-header;
+          border: none;
+          color: $color-grey-light-2;
+          &-active {
+            background: $plavosivlac;
+            border: none;
+            color: $color-grey-light-2;
+          }
+        }
+      }
+      &:hover {
+        background: $color-list-itme-active;
+        transition: background 0.2s;
+      }
+      &-img {
+        display: inline-block;
+        // min-height: 7rem;
+        // min-width: 6rem;
+        max-height: 10rem;
+        max-width: 10rem;
+      }
+      &-title {
+        font-size: 1.4rem;
+        padding: 0.5rem;
+        // font-weight: 400;
+        // color: $color-sidebar-header;
+      }
+      &-price {
+        font-size: 1.5rem;
+        padding-right: 1rem;
+        &-old {
+          font-size: 1.2rem;
+          color: $sivlac;
+          text-decoration: line-through;
+        }
+        &-final {
+          padding: 0.5rem;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+  &-active {
+    background: #122e3c;
+    color: $color-sidebar-header;
+  } // active
+} // list item
+
+.shop-info-window {
+  // background: $background-sidebar-header;
+  padding: 0.5rem 1.2rem;
+  background-color: rgba(27, 31, 36, 0.9);
+  color: $color-sidebar-header;
+  width: 63rem;
+  max-width: 52%;
+  z-index: 1;
+  position: absolute;
+  // header 7 rem height 20rem
+  // top: 61rem;
+  // bottom: 1.5rem;
+  bottom: 0.1rem;
+  // top: 57rem;
+  // top: 47rem;
+  // top: 42rem;
+  left: 57rem;
+  overflow: hidden;
+  height: 30rem;
+  min-height: 29rem;
+  color: #b5acac;
+  font-size: 1.6rem;
+  font-weight: 400;
+  &-map {
+    max-width: 75%;
+    width: 64%;
+    left: 18%;
+  }
+  &__title {
+    padding-left: 1.5rem 2.1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    // color: #8a8a8a;
+    // color: #cebfbf;
+    color: #b5acac;
+    box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+    display: flex;
+    justify-content: space-between;
+    &-inner {
+      font-weight: 500;
+      font-size: 1.8rem;
+      &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+    &-distance {
+      font-size: 1.7rem;
+    }
+  }
+  &-tires {
+    display: grid;
+    justify-content: start;
+    grid-auto-flow: column;
+    overflow-x: auto;
+  }
+  &-tires-card {
+    display: grid;
+    justify-items: center;
+    max-width: 19rem;
+    min-width: 18rem;
+    padding: 0.5rem 1.5rem;
+    &-img {
+      display: inline-block;
+      max-height: 9.5rem;
+      max-width: 9.5rem;
+    }
+    &-title {
+      font-size: 1.3rem;
+      padding: 0.1rem;
+      // margin-bottom: 0.5rem;
+    }
+    &-price {
+      font-size: 1.4rem;
+      margin-top: 0.4rem;
+      &-old {
+        font-size: 1.2rem;
+      }
+      &-final {
+        padding: 0.4rem;
+        font-size: 1.4rem;
+        // &-num {}
+      } // final
+    } // price
+  } // tires card
+} // shop info window

@@ -1,0 +1,36 @@
+// TIRES CARD ITEM SHOP VIEW !!! DONT DELETE
+.tires-card {
+  box-shadow: 0 1px 1px rgba(104, 104, 104, 0.3);
+  &:hover {
+    // background: $color-list-itme-active;
+    // background: #1f1c1c;
+    background: #00000052;
+    transition: background 0.2s;
+  }
+  &-title {
+    font-weight: 400;
+    color: $color-grey-light-2;
+    text-align: center;
+  }
+  &-price {
+    color: $color-green-2;
+    // color: $price-red-4;
+    // color: #c73a3a;
+    font-weight: 500;
+    &-old {
+      color: $sivlac;
+      text-decoration: line-through;
+    }
+    &-final {
+      // color: $color-grey-light-2;
+      // color: $color-green-2;
+      // color: $price-blue-cobalt;
+      color: #19bfb7;
+      font-weight: 500;
+      &-num {
+        font-weight: 500;
+        // color: $color-green-2;
+      } // num
+    } // final
+  } // price
+} // tires card

@@ -11,6 +11,7 @@ server.set("view engine", "ejs");
 server.set("views", path.join(__dirname, "views"));
 
 server.use("/", express.static(path.join(__dirname, "static")));
+server.use("/", express.static(path.join(__dirname, "../public")));
 
 const manifest = fs.readFileSync(
   path.join(__dirname, "static/manifest.json"),

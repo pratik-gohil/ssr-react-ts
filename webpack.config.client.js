@@ -19,11 +19,19 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+      {
         test: /\.tsx?$/,
         loader: "ts-loader",
         options: {
           configFile: "tsconfig.client.json",
         },
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
       },
     ],
   },

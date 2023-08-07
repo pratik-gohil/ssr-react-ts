@@ -1,0 +1,447 @@
+@media (max-width: 1220px) {
+  .sidebar-tires {
+    width: 45%;
+  }
+  .shop-info-window {
+    left: 46%;
+    bottom: 0.6rem;
+  }
+  .shop-info-window-map {
+    max-width: 75%;
+    width: 64%;
+    left: 18%;
+  }
+  .tires-card-tires {
+    min-width: 33.3%;
+  }
+}
+@media (max-width: 1201px) {
+  .header {
+    grid-template-columns: 1.2fr 3.3fr 2.7fr;
+    grid-auto-flow: row;
+    height: 11rem;
+    grid-row-gap: 0.9rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .header__search {
+    grid-column: 1/3;
+  }
+  .sidebar-tires {
+    margin-top: 11rem;
+  }
+  .navigation__logo {
+    padding-left: 0;
+  }
+  .footer {
+    padding: 3rem 0.5rem;
+  }
+  .footer__content {
+    padding: 3rem 0.5rem;
+  }
+}
+@media (max-width: 1174px) {
+  .header_row_1 {
+    grid-template-columns: 1fr 2.6fr 8fr;
+  }
+  .header_row_2 {
+    grid-template-columns: 1.3fr 2fr;
+  }
+  .view_options {
+    margin-left: unset;
+  }
+  .view_options__btn {
+    padding: 0.5rem 1.9rem;
+  }
+}
+@media (max-width: 985px) {
+  .sidebar-tires-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .filters-type {
+    padding: 1rem 1rem;
+  }
+  .header_row_1 {
+    grid-template-columns: 1fr 2.5fr 8fr;
+  }
+  .header_row_2 {
+    grid-template-columns: 1.5fr 2fr;
+  }
+  .navigation__logo {
+    width: 11rem;
+  }
+  .navigation__logo-img {
+    max-height: 2.8rem;
+  }
+  .view_options__btn {
+    padding: 0.5rem 1.2rem;
+  }
+}
+@media (max-width: 875px) {
+  .header_row_2_near_title {
+    text-align: center;
+  }
+  .header_row_2_near_title-h1Text {
+    display: none;
+  }
+  .header_row_2_near_title-h1Text1 {
+    display: unset;
+  }
+  .header_row_1 {
+    grid-template-columns: 1fr 2.8fr 8fr;
+  }
+  .header_row_2 {
+    grid-template-columns: 1.8fr 2fr;
+  }
+  .sorting_options {
+    margin-left: unset;
+  }
+  .header_row_2_near_title {
+    font-size: 1.9rem;
+  }
+  .filters-type {
+    padding: 1.2rem 0.7rem;
+  }
+  .shop-info-window {
+    left: 2%;
+    bottom: 0.6rem;
+    z-index: 1;
+  }
+  .shop-info-window-map {
+    max-width: 75%;
+    width: 64%;
+    left: 18%;
+  }
+  .sidebar-tires {
+    width: 90%;
+    min-height: 33rem;
+  }
+  .sidebar-tires-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .home__header-form {
+    width: 90%;
+  }
+  .footer {
+    padding: 3rem 0.2rem;
+  }
+  .footer__content {
+    padding: 3rem 0.2rem;
+  }
+  .footer__content-main {
+    grid-template-columns: 1.8fr 1.2fr 5fr;
+  }
+  .home__header-title-p {
+    padding-left: 9%;
+  }
+}
+@media (max-width: 785px) {
+  .header {
+    padding: 0.4rem 1rem;
+    height: 13.3rem;
+    padding-bottom: unset;
+  }
+  .header_row_1 {
+    grid-template-columns: 1fr 2.4fr;
+    grid-row-gap: 1rem;
+  }
+  .navigation__logo {
+    width: 12rem;
+    grid-column: 1/2;
+    justify-self: center;
+  }
+  .navigation__logo-img {
+    max-height: 3.3rem;
+  }
+  .view_options {
+    grid-column: 2/3;
+  }
+  .sidebar-tires {
+    margin-top: 13.2rem;
+  }
+  .filters {
+    grid-row: 2;
+    grid-column: 1/3;
+  }
+  .header_row_2 {
+    grid-template-columns: 1.6fr 2fr;
+  }
+  .header_row_2_near {
+    padding-left: 0.5rem;
+  }
+  .header_row_2_near_title {
+    font-size: 1.7rem;
+  }
+  .sorting_options-p {
+    display: none;
+  }
+  .sorting_options__btn {
+    padding: 0.6rem 2.4rem;
+    font-size: 1.4rem;
+  }
+  .sidebar-tires {
+    width: 96%;
+  }
+  .header {
+    grid-template-columns: 1.2fr 3.3fr;
+  }
+  .filters {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 0.5rem;
+  }
+  .filters__after {
+    display: none;
+  }
+  .filters__afterServiceDropdown {
+    display: unset;
+  }
+  .footer {
+    padding: 2.7rem 0.1rem;
+  }
+  .footer__content {
+    padding: 2.7rem 0.1rem;
+  }
+  .footer__content-main {
+    grid-template-columns: 2fr 1.5fr 4fr;
+  }
+  .shop-info-window-map {
+    max-width: 80%;
+    width: 76%;
+    left: 12%;
+  }
+  .home__header-title-p {
+    padding-left: 5%;
+  }
+  .home__header-title-h1 {
+    line-height: 1;
+    margin-left: 3%;
+  }
+}
+@media (max-width: 700px) {
+  .shopInfoModal {
+    grid-template-columns: 7fr 0.4fr;
+  }
+  .shopInfoModal-selectedTire {
+    display: none;
+  }
+  .shopInfoModal-info__title-distance {
+    padding-right: 0.8rem;
+  }
+}
+@media (max-width: 650px) {
+  .header_row_2_near_title-h1Text {
+    display: none;
+  }
+  .sidebar-tires {
+    width: 92%;
+  }
+  .sidebar-tires-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer {
+    padding: 2.7rem 0.1rem;
+  }
+  .footer__content {
+    padding: 2.7rem 0.1rem;
+  }
+  .footer__content-main {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer__brandsSection {
+    grid-row: 2;
+    grid-column: 1/3;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .footer__info {
+    justify-self: center;
+  }
+}
+@media (max-width: 533px) {
+  .shopInfoModal-info-247 {
+    grid-auto-flow: row;
+    grid-row-gap: 0.8rem;
+  }
+  .shopInfoModal-info__title {
+    display: unset;
+    max-height: unset;
+  }
+  .shopInfoModal-tires__title {
+    grid-template-columns: 1fr;
+  }
+  .home__deals-row-featured-service {
+    display: none;
+  }
+  .tires-card-tires-shopName {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .tires-card-tires-sizeTag {
+    top: 8px;
+    font-size: 1.4rem;
+  }
+  .header {
+    height: 15.5rem;
+  }
+  .header_row_1 {
+    grid-template-columns: 1.2fr 2.1fr;
+    margin-bottom: 0.3rem;
+    grid-row-gap: 0.3rem;
+  }
+  .header_row_2 {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0.3rem;
+  }
+  .header_row_2_near {
+    grid-row: 2;
+  }
+  .header_row_2_near_title {
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .header_row_2_near_title-span {
+    padding-left: unset;
+  }
+  .sidebar-tires {
+    margin-top: 15.5rem;
+    min-height: 100vh;
+  }
+  .autocomplete__input-dark {
+    line-height: 1.4;
+  }
+  .searchIcon-text {
+    display: none;
+  }
+  .tires-card-tires {
+    padding-bottom: 0.5rem;
+  }
+  .tires-card-tires-shopName {
+    font-size: 1.3rem;
+  }
+  .tires-card-tires-shopName-wrap {
+    padding: 0.3rem 0.7rem;
+    padding-bottom: 0.1rem;
+  }
+  .tires-card-tires-tags {
+    padding: 0.3rem 0.7rem;
+  }
+  .tires-card-tires-tags-tag {
+    font-size: 1.2rem;
+    padding: 0.3rem 1rem;
+  }
+  .tires-card-tires-tags-dist {
+    font-size: 1.2rem;
+  }
+  .tires-card-tires-img {
+    max-height: 8.7rem;
+    max-width: 8.7rem;
+    margin-bottom: -0.2rem;
+  }
+  .tires-card-tires-title {
+    padding-left: 0.1rem;
+  }
+  .tires-card-tires-title-model {
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+  .tires-card-tires-title-axle {
+    display: none;
+  }
+  .tires-card-tires-price {
+    font-size: 1.7rem;
+  }
+  .tires-card-tires-price-old {
+    font-size: 0.9rem;
+  }
+  .tires-card-tires-price-final {
+    padding: 0rem;
+    font-size: 1.3rem;
+  }
+  .tires-card-tires-price-final-mobile {
+    padding: 0rem;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 425px) {
+  .header_row_2_near_title {
+    font-size: 1.7rem;
+  }
+  .navigation__logo {
+    width: 11.7rem;
+  }
+  .navigation__logo-img {
+    max-height: 3rem;
+  }
+  .shop-info-window {
+    display: none;
+  }
+  .shop-info-window-map {
+    display: none;
+  }
+  .tiresPage__mapWrapper {
+    height: 100%;
+    overflow: auto;
+    min-height: 81rem;
+  }
+  .tiresPage__mapWrapper-map {
+    height: 100vh;
+  }
+  .sidebar-tires {
+    position: unset;
+    margin-left: 0;
+    width: 98%;
+  }
+  .sidebar-tires-list {
+    max-height: unset;
+    overflow-y: unset;
+  }
+  .dropdown__btn {
+    padding: 0.58rem 1.5rem;
+    font-size: 1.4rem;
+  }
+  .checkbox__label {
+    font-size: 1.4rem;
+  }
+  .footer {
+    padding: 2.4rem 0.3rem;
+  }
+  .footer__content {
+    padding: 2.4rem 0.3rem;
+  }
+  .footer__info {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 386px) {
+  .tires-card-tires-title-model {
+    font-size: 1.2rem;
+  }
+  .tires-card-tires-price-final-mobile {
+    font-size: 1.2rem;
+  }
+  .tires-card-tires-price-final-mobile-num {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 350px) {
+  .sidebar-tires-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .view_options {
+    margin-left: 0;
+  }
+  .view_options__btn {
+    padding: 0.5rem 1.5rem;
+  }
+  .tires-card-tires-tags-tag {
+    font-size: 1.1rem;
+    padding: 0.3rem 0.9rem;
+  }
+  .tires-card-tires-tags-dist {
+    font-size: 1.1rem;
+  }
+  .tires-card-tires-title-model {
+    font-size: 1.25rem;
+  }
+}/*# sourceMappingURL=mediaResults.css.map */
